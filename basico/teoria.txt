@@ -1,0 +1,48 @@
+para ejecutar un archivo .js  
+    abro terminal
+        node .\prueba.js
+            hola
+
+JavaScript
+Es un lenguaje interpretado, TypeScript es un lenguaje compilado.
+Las variables son espacios de memoria donde colocamos datos. Ya hicimos un primer contacto en el video anterior, donde declaramos y asignamos valores a espacios de memoria como ‘Aerolínea’ o costo de pasaje. Son variables, eso es variable.
+Se llaman variables porque son espacios de memoria y generalmente su valor varía, pero hay variables cuyo valor no varía con el tiempo.
+
+Declaracion de variables
+const= variables constantes y cuyo valor no cambia en el tiempo
+let= espacio de memoria que deja modificar el valor de la variable durante la ejecucion, esta disponible dentro del bloque, si se llama afuera da error
+var= en desuso, espacio de memoria que puede cambiar durante la ejecucion del programa, el alcance es global, no solo al bloque y si se llama afuera, se puede usar, funciona
+
+Orden de precedencia
+()
+*
+/
++
+-
+
+Template String o plantilla de texto 
+Toma datos de texto o numero juntos o reemplaza sus valores sin que el dato sea un problema(numerico a alfabeto o viceversa)
+const nombrePasajero = "Leonardo"
+const apellidoPasajero = "Romero"
+
+let nombreCompleto = `El nombre completo es: ${nombrePasajero} ${apellidoPasajero}`
+console.log(nombreCompleto);
+// RTA: El nombre completo es: Leonardo Romero
+
+***con backtips***
+
+
+ARRAY-listas
+
+
+DEPURADOR--> DEBUGGER
+Es el triangulo con bicho de visual code a la izquierda
+clic en JavaScript Debug terminal
+    Run and Debug y la recomendada
+        con los controles de arriba puedo avanzar paso a paso
+            WATCH para ver que dato tiene cada texto
+
+.json--> JavaScript Objet Notation
+    run and Debugcreate a launch.json file
+        me va a crear el .json para depurar ese archivo en especifico, en name se lo puedo cambiar y program puedo especificar cual corra, esto lo copio y pega separado por coma y puedo generar mas files de run and debug en ese mismo archivo
+
